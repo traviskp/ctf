@@ -1,0 +1,25 @@
+- = + = - = + = - = + = - = + = -
+Images
+- = + = - = + = - = + = - = + = -
+Mac: Open in preview, adjust exposure / contrast
+
+Linux:
+file filename.jpg
+strings filename.jpg
+binwalk -e filename.jpg
+steghide extract -sf filename.jpg
+
+- = + = - = + = - = + = - = + = -
+Audio files:
+- Sonic Visualizer 
+- Add panes (waveforms and spectrograms) to find hidden text 
+- zoom in and out
+- = + = - = + = - = + = - = + = -
+
+Decryption / decoding
+- = + = - = + = - = + = - = + = -
+hashid 0800fc577294c34e0b28ad2839435945
+md5online.org (adblockers up)
+
+echo "UHV0IGhhc2ggaGVyZQ==" | base64 -d
+
