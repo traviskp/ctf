@@ -6,6 +6,7 @@ Mac: Open in preview, adjust exposure / contrast
 Linux:
 file filename.jpg
 strings filename.jpg
+exiftool filename.jpg
 binwalk -e filename.jpg
 steghide extract -sf filename.jpg
 
