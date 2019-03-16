@@ -12,15 +12,23 @@ steghide extract -sf filename.jpg
 
 - = + = - = + = - = + = - = + = -
 Audio files:
+- = + = - = + = - = + = - = + = -
 - Sonic Visualizer 
 - Add panes (waveforms and spectrograms) to find hidden text 
 - zoom in and out
 - = + = - = + = - = + = - = + = -
 
+- = + = - = + = - = + = - = + = -
 Decryption / decoding
 - = + = - = + = - = + = - = + = -
 hashid 0800fc577294c34e0b28ad2839435945
 md5online.org (adblockers up)
 
 echo "UHV0IGhhc2ggaGVyZQ==" | base64 -d
+
+- = + = - = + = - = + = - = + = -
+Crack zip files 
+- = + = - = + = - = + = - = + = -
+fcrack -v -l 4 -u FILENAME.zip
+  (add -8 after 4 to check 4 digit through 8 passwords)
 
