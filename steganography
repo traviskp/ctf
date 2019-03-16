@@ -3,7 +3,7 @@ Images
 - = + = - = + = - = + = - = + = -
 Mac: Open in preview, adjust exposure / contrast
 
-Linux:
+Linux cmd:
 file filename.jpg
 strings filename.jpg
 exiftool filename.jpg
