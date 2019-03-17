@@ -37,6 +37,11 @@ md5online.org (adblockers up)
 
 echo "UHV0IGhhc2ggaGVyZQ==" | base64 -d
 
+Make hexdump or do reverse
+xxd -r -p
+
+hexdump -C file
+
 - = + = - = + = - = + = - = + = -
 Zip files
 - = + = - = + = - = + = - = + = -
