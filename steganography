@@ -14,8 +14,13 @@ steghide extract -sf filename.jpg
 Audio files:
 - = + = - = + = - = + = - = + = -
 - Sonic Visualizer 
-- Add panes (waveforms and spectrograms) to find hidden text 
-- zoom in and out
+  Add panes (waveforms and spectrograms) to find hidden text 
+  zoom in and out
+
+Wav files
+- Tungen (works best in windows)
+  Turbo decoder > Universal Turbo > Other settings + Save header to extra file > "strings" output .tm file
+  
 - = + = - = + = - = + = - = + = -
 
 - = + = - = + = - = + = - = + = -
