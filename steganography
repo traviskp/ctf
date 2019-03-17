@@ -9,7 +9,9 @@ strings filename.jpg
 exiftool filename.jpg
 binwalk -e filename.jpg
 steghide extract -sf filename.jpg
-stegcracker filename.wav rockyou.txt
+
+https://github.com/Paradoxis/StegCracker
+./stegcracker filename.wav rockyou.txt
 
 - = + = - = + = - = + = - = + = -
 Audio files:
