@@ -9,6 +9,7 @@ strings filename.jpg
 exiftool filename.jpg
 binwalk -e filename.jpg
 steghide extract -sf filename.jpg
+stegcracker filename.wav rockyou.txt
 
 - = + = - = + = - = + = - = + = -
 Audio files:
