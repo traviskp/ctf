@@ -21,6 +21,9 @@ Wav files
 - Tungen (works best in windows)
   Turbo decoder > Universal Turbo > Other settings + Save header to extra file > "strings" output .tm file
   
+- Files in wav
+  binwalk --dd=".*" whatever.wav
+  
 - = + = - = + = - = + = - = + = -
 
 - = + = - = + = - = + = - = + = -
