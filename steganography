@@ -33,7 +33,6 @@ Brute force password combos:
 fcrack -v -l 4 -u FILENAME.zip
   (add -8 after 4 to check 4 digit through 8 passwords)
 
-Under construction:
 "Need pkcompat"
 p7zip filename.zip
 7z x filename.zip.7z
