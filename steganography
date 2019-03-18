@@ -10,6 +10,9 @@ exiftool filename.jpg
 binwalk -e filename.jpg
 steghide extract -sf filename.jpg
 
+Compare two images, output differences into a new file:
+diff file1.png file2.png | grep ">" | sed s/..// > new.png
+
 https://github.com/Paradoxis/StegCracker
 ./stegcracker filename.wav rockyou.txt
 
