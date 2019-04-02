@@ -56,3 +56,9 @@ fcrack -v -l 4 -u FILENAME.zip
 p7zip filename.zip
 7z x filename.zip.7z
 7z x filename.zip
+
+
+- = - = - = - = - = - = - = - = -
+Remove lines from text
+
+cat file.txt | tr -d '\n' > oneline.txt
