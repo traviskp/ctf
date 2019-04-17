@@ -2,6 +2,7 @@
 Images
 - = + = - = + = - = + = - = + = -
 Mac: Open in preview, adjust exposure / contrast
+mdls filename.jpg
 
 Linux cmd:
 file filename.jpg
